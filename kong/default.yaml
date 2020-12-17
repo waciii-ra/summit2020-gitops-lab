@@ -4,7 +4,7 @@ services:
 - connect_timeout: 60000
   host: httpbin.org
   name: httpbin
-  path: /anything
+  path: /anything/ping
   port: 80
   protocol: http
   read_timeout: 50000
